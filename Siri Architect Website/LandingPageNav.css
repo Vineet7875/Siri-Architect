@@ -1,0 +1,58 @@
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 1.7rem;
+    color:#444;
+    margin:2rem 0;
+    padding-top: 6rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--orange);
+    text-underline-offset:-1.4rem;
+  }
+  
+  .header{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    width:100% ;
+    background:#fff;
+    z-index: 100 ;
+    padding:1rem 2rem; 
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+    margin-top: 0rem;
+    height: 6rem;
+  }
+  
+  .header .logo img{
+    height: 4rem;
+  }
+  
+  .header nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0; padding:0;
+  }
+  
+  .header nav ul li{
+    margin: 0 1.5rem;
+  }
+  
+  .header nav ul li a{
+    font-size: 1.2rem;
+    color:#666;
+  }
+  
+  .header nav ul li a:hover{
+    color:#000;
+    text-decoration: none;
+  }
+  
+  .header .fa-bars{
+    font-size: 2.5rem;
+    color:#666;
+    cursor: pointer;
+    display: none;
+  }
